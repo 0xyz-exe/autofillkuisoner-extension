@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AutofillKuisoner - Otomatis Isi Survei Mata Kuliah</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="popup-body">
+    <div class="popup-container">
+        <div class="popup-header">
+            <div class="popup-icon">🎓</div>
+            <h1>AutofillKuisoner</h1>
+            <p>Otomatis Isi Survei Mata Kuliah</p>
+        </div>
+        
+        <div class="popup-content">
+            <div class="status-section">
+                <div class="status-item">
+                    <span class="status-label">Status:</span>
+                    <span id="status-text" class="status-value">Siap</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Field Ditemukan:</span>
+                    <span id="field-count" class="status-value">-</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Terisi:</span>
+                    <span id="filled-count" class="status-value">-</span>
+                </div>
+            </div>
+
+            <div class="button-section">
+                <button id="fill-all-btn" class="btn btn-primary">
+                    <span class="btn-icon">✨</span>
+                    Isi Semua Field
+                </button>
+                
+                <button id="fill-ratings-btn" class="btn btn-secondary">
+                    <span class="btn-icon">⭐</span>
+                    Isi Rating Saja
+                </button>
+                
+                <button id="fill-text-btn" class="btn btn-secondary">
+                    <span class="btn-icon">📝</span>
+                    Isi Teks Saja
+                </button>
+                
+                <button id="clear-all-btn" class="btn btn-danger">
+                    <span class="btn-icon">🗑️</span>
+                    Bersihkan Semua
+                </button>
+            </div>
+
+            <div class="options-section">
+                <div class="option-item">
+                    <label class="option-label">
+                        <input type="checkbox" id="randomize-responses" checked>
+                        <span class="checkmark"></span>
+                        Variasi Respons
+                    </label>
+                </div>
+                <div class="option-item">
+                    <label class="option-label">
+                        <input type="checkbox" id="highlight-fields" checked>
+                        <span class="checkmark"></span>
+                        Highlight Field
+                    </label>
+                </div>
+                <div class="option-item">
+                    <label class="option-label">
+                        <input type="checkbox" id="show-notifications" checked>
+                        <span class="checkmark"></span>
+                        Tampilkan Notifikasi
+                    </label>
+                </div>
+            </div>
+
+            <div class="progress-section" id="progress-section">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <div class="progress-text" id="progress-text">Mengisi field...</div>
+            </div>
+        </div>
+
+        <div class="popup-footer">
+            <div class="version">v1.0.0</div>
+            <div class="shortcuts">
+                <small>Shortcut: Ctrl+Shift+F</small>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

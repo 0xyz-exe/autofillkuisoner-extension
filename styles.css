@@ -1,0 +1,243 @@
+/* Popup Styles */
+.popup-body {
+    width: 320px;
+    min-height: 400px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+}
+
+.popup-container {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.popup-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.popup-icon {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.popup-header h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.popup-header p {
+    margin: 4px 0 0 0;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.popup-content {
+    padding: 20px;
+}
+
+.status-section {
+    background: #f8f9fa;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.status-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.status-item:last-child {
+    margin-bottom: 0;
+}
+
+.status-label {
+    font-size: 12px;
+    color: #666;
+}
+
+.status-value {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+}
+
+.status-value.success {
+    color: #4CAF50;
+}
+
+.status-value.error {
+    color: #f44336;
+}
+
+.button-section {
+    margin-bottom: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:last-child {
+    margin-bottom: 0;
+}
+
+.btn-icon {
+    margin-right: 8px;
+}
+
+.btn-primary {
+    background: #4CAF50;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #45a049;
+}
+
+.btn-secondary {
+    background: #2196F3;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #1976D2;
+}
+
+.btn-danger {
+    background: #f44336;
+    color: white;
+}
+
+.btn-danger:hover {
+    background: #d32f2f;
+}
+
+.options-section {
+    border-top: 1px solid #eee;
+    padding-top: 16px;
+    margin-bottom: 16px;
+}
+
+.option-item {
+    margin-bottom: 8px;
+}
+
+.option-label {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #666;
+    cursor: pointer;
+}
+
+.option-label input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.progress-section {
+    background: #f8f9fa;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 4px;
+    background: #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.progress-fill {
+    height: 100%;
+    background: #4CAF50;
+    border-radius: 2px;
+    transition: width 0.3s ease;
+}
+
+.progress-text {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.popup-footer {
+    background: #f8f9fa;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+}
+
+.version {
+    font-size: 11px;
+    color: #999;
+}
+
+.shortcuts {
+    font-size: 10px;
+    color: #999;
+}
+
+.success-message {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 1000;
+}
+
+.error-message {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #f44336;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 1000;
+}
+
+/* Content script notification styles */
+.autofill-notification {
+    position: fixed !important;
+    top: 20px !important;
+    right: 20px !important;
+    padding: 12px 16px !important;
+    border-radius: 6px !important;
+    color: white !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 14px !important;
+    z-index: 10000 !important;
+    max-width: 300px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+}
