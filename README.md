@@ -1,8 +1,21 @@
 # 🎓 AutofillKuisoner Chrome Extension
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/wondrv/autofillkuisoner-extension)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/0xyz-exe/autofillkuisoner-extension)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Not%20Published-red.svg)](https://chrome.google.com/webstore)
+
+Repository: https://github.com/0xyz-exe/autofillkuisoner-extension
+
+## Screenshots
+
+### Extension Popup Interface & Settings
+![Extension popup](docs/screenshots/01_popup_interface.png)
+
+### Survey Form Auto-Fill Demonstration
+![Autofill demo](docs/screenshots/02_autofill_demo.png)
+
+### Indonesian Academic Response Presets
+![Response presets](docs/screenshots/03_response_presets.png)
 
 A professional Chrome extension designed to automatically fill academic survey forms with realistic Indonesian responses, specifically tailored for university course evaluations.
 
@@ -41,7 +54,7 @@ A professional Chrome extension designed to automatically fill academic survey f
 
 1. **Download the Extension**
    ```bash
-   git clone https://github.com/wondrv/autofillkuisoner-extension.git
+   git clone https://github.com/0xyz-exe/autofillkuisoner-extension.git
    # or download ZIP and extract
    ```
 
